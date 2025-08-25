@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/yourdbname
+    username: yourusername
+    password: yourpassword
+
+jwt:
+  secret: your_jwt_secret_here
+
+weather:
+  api-key: YOUR_WEATHER_API_KEY
+
+email:
+  username: YOUR_EMAIL
+  password: YOUR_EMAIL_PASSWORD
