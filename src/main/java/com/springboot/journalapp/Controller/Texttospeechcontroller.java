@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/text-to-speech")
 @RequiredArgsConstructor
-public class TextToSpeechController {
+public class Texttospeechcontroller {
 
     private final ElevenLabsService elevenLabsService;
 

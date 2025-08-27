@@ -750,7 +750,7 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2025-08-21 10:19:19 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 33 ms
 2025-08-21 10:19:19 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
 java.lang.NullPointerException: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:41)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -879,7 +879,7 @@ java.lang.NullPointerException: Cannot invoke "org.springframework.security.core
 2025-08-21 10:24:19 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
 2025-08-21 10:24:19 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
 java.lang.NullPointerException: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1009,7 +1009,7 @@ java.lang.NullPointerException: Cannot invoke "org.springframework.security.core
 2025-08-21 10:25:51 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m268ms944µs500ns).
 2025-08-21 10:25:51 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
 java.lang.NullPointerException: Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1140,7 +1140,7 @@ java.lang.NullPointerException: Cannot invoke "org.springframework.security.core
 2025-08-21 10:28:00 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: User6
 org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:43)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1272,7 +1272,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 2025-08-21 10:31:04 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: User6
 org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:43)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1404,7 +1404,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 2025-08-21 10:34:03 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: User6
 org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:43)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1535,7 +1535,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 2025-08-21 10:40:39 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: User6
 org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:44)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1668,7 +1668,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with username: User6
 	at com.springboot.journalapp.Service.UserDetailsImpl.loadUserByUsername(UserDetailsImpl.java:29)
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:46)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1802,7 +1802,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User no
 org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with username: User6
 	at com.springboot.journalapp.Service.UserDetailsImpl.loadUserByUsername(UserDetailsImpl.java:29)
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:46)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1933,7 +1933,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User no
 2025-08-21 10:46:51 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: User6
 org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:44)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2064,7 +2064,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 2025-08-21 10:50:03 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: User6
 org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:44)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:43)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2270,7 +2270,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User6
 2025-08-21 17:29:28 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: Cannot invoke "org.springframework.web.client.RestTemplate.exchange(String, org.springframework.http.HttpMethod, org.springframework.http.HttpEntity, java.lang.Class, Object[])" because "this.restTemplate" is null
 java.lang.NullPointerException: Cannot invoke "org.springframework.web.client.RestTemplate.exchange(String, org.springframework.http.HttpMethod, org.springframework.http.HttpEntity, java.lang.Class, Object[])" because "this.restTemplate" is null
 	at com.springboot.journalapp.Service.WeatherService.GetWeather(WeatherService.java:22)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:25)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3180,7 +3180,7 @@ org.springframework.web.client.HttpClientErrorException$UnprocessableEntity: 422
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
 	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
 	at com.springboot.journalapp.Service.ElevenLabsService.textToSpeech(ElevenLabsService.java:36)
-	at com.springboot.journalapp.Controller.TextToSpeechController.getWeather(TextToSpeechController.java:18)
+	at com.springboot.journalapp.Controller.Texttospeechcontroller.getWeather(TextToSpeechController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3710,7 +3710,7 @@ java.lang.ClassCastException: class org.springframework.data.redis.cache.RedisCa
 	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
 	at com.springboot.journalapp.Service.WeatherService$$EnhancerBySpringCGLIB$$d2e1ad3c.getWeatherWithCacheCheck(<generated>)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:23)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3819,7 +3819,7 @@ java.lang.ClassCastException: class org.springframework.data.redis.cache.RedisCa
 	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
 	at com.springboot.journalapp.Service.WeatherService$$EnhancerBySpringCGLIB$$d2e1ad3c.getWeatherWithCacheCheck(<generated>)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:23)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3924,7 +3924,7 @@ java.lang.ClassCastException: class org.springframework.data.redis.cache.RedisCa
 	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
 	at com.springboot.journalapp.Service.WeatherService$$EnhancerBySpringCGLIB$$d2e1ad3c.getWeatherWithCacheCheck(<generated>)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:23)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4483,7 +4483,7 @@ java.lang.IllegalArgumentException: URI is not absolute
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
 	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
 	at com.springboot.journalapp.Service.WeatherService.getWeather(WeatherService.java:36)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:22)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4622,7 +4622,7 @@ java.lang.IllegalArgumentException: URI is not absolute
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
 	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
 	at com.springboot.journalapp.Service.WeatherService.getWeather(WeatherService.java:36)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:22)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4761,7 +4761,7 @@ java.lang.IllegalArgumentException: URI is not absolute
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
 	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
 	at com.springboot.journalapp.Service.WeatherService.getWeather(WeatherService.java:36)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:22)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4931,7 +4931,7 @@ java.lang.IllegalArgumentException: URI is not absolute
 java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "replacement" is null
 	at java.base/java.lang.String.replace(String.java:2963)
 	at com.springboot.journalapp.Service.WeatherService.getWeather(WeatherService.java:33)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:22)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5065,7 +5065,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()
 2025-08-23 15:30:55 ERROR c.s.j.Service.WeatherService - Unexpected error while calling Weather API
 java.lang.RuntimeException: Weather API config not found in cache.
 	at com.springboot.journalapp.Service.WeatherService.getWeather(WeatherService.java:30)
-	at com.springboot.journalapp.Controller.WeatherController.getWeather(WeatherController.java:22)
+	at com.springboot.journalapp.Controller.Weathercontroller.getWeather(WeatherController.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5395,7 +5395,7 @@ org.springframework.web.client.HttpClientErrorException$Unauthorized: 401 Unauth
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
 	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:474)
 	at com.springboot.journalapp.Service.GoogleAuthService.handleGoogleCallback(GoogleAuthService.java:58)
-	at com.springboot.journalapp.Controller.GoogleAuthController.googleCallback(GoogleAuthController.java:22)
+	at com.springboot.journalapp.Controller.Googleauthcontroller.googleCallback(GoogleAuthController.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5491,12 +5491,12 @@ org.springframework.web.client.HttpClientErrorException$Unauthorized: 401 Unauth
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:842)
 2025-08-27 15:45:39 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: Invocation failure
-Controller [com.springboot.journalapp.Controller.GoogleAuthController]
-Method [public org.springframework.http.ResponseEntity<com.springboot.journalapp.api.response.ApiResponse<java.lang.String>> com.springboot.journalapp.Controller.GoogleAuthController.googleCallback(java.lang.String) throws com.springboot.journalapp.Exception.GoogleAuthException] with argument values:
+Controller [com.springboot.journalapp.Controller.Googleauthcontroller]
+Method [public org.springframework.http.ResponseEntity<com.springboot.journalapp.api.response.ApiResponse<java.lang.String>> com.springboot.journalapp.Controller.Googleauthcontroller.googleCallback(java.lang.String) throws com.springboot.journalapp.Exception.GoogleAuthException] with argument values:
  [0] [type=java.lang.String] [value=4/0AVMBsJhC5z9I1oIAIfRkVXx2KMHrztuadev6hmu4syWs4HNt3Z-oBa7kumaAqlO3VUcg2Q] 
 java.lang.IllegalStateException: Invocation failure
-Controller [com.springboot.journalapp.Controller.GoogleAuthController]
-Method [public org.springframework.http.ResponseEntity<com.springboot.journalapp.api.response.ApiResponse<java.lang.String>> com.springboot.journalapp.Controller.GoogleAuthController.googleCallback(java.lang.String) throws com.springboot.journalapp.Exception.GoogleAuthException] with argument values:
+Controller [com.springboot.journalapp.Controller.Googleauthcontroller]
+Method [public org.springframework.http.ResponseEntity<com.springboot.journalapp.api.response.ApiResponse<java.lang.String>> com.springboot.journalapp.Controller.Googleauthcontroller.googleCallback(java.lang.String) throws com.springboot.journalapp.Exception.GoogleAuthException] with argument values:
  [0] [type=java.lang.String] [value=4/0AVMBsJhC5z9I1oIAIfRkVXx2KMHrztuadev6hmu4syWs4HNt3Z-oBa7kumaAqlO3VUcg2Q] 
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:225)
 	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
@@ -5590,7 +5590,7 @@ Method [public org.springframework.http.ResponseEntity<com.springboot.journalapp
 	at java.base/java.lang.Thread.run(Thread.java:842)
 Caused by: com.springboot.journalapp.Exception.GoogleAuthException: Error during Google OAuth2 process: 401 Unauthorized: [no body]
 	at com.springboot.journalapp.Service.GoogleAuthService.handleGoogleCallback(GoogleAuthService.java:103)
-	at com.springboot.journalapp.Controller.GoogleAuthController.googleCallback(GoogleAuthController.java:22)
+	at com.springboot.journalapp.Controller.Googleauthcontroller.googleCallback(GoogleAuthController.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5748,7 +5748,7 @@ Caused by: com.springboot.journalapp.Exception.GoogleAuthException: Error during
 org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with username: User6
 	at com.springboot.journalapp.Service.UserDetailsImpl.loadUserByUsername(UserDetailsImpl.java:29)
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:71)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:39)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5880,7 +5880,7 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User no
 org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with username: User6
 	at com.springboot.journalapp.Service.UserDetailsImpl.loadUserByUsername(UserDetailsImpl.java:29)
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:71)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:39)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6094,7 +6094,7 @@ Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character (
 org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with username: User6
 	at com.springboot.journalapp.Service.UserDetailsImpl.loadUserByUsername(UserDetailsImpl.java:29)
 	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:71)
-	at com.springboot.journalapp.Controller.PublicController.loginUser(PublicController.java:39)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6192,3 +6192,450 @@ org.springframework.security.core.userdetails.UsernameNotFoundException: User no
 2025-08-27 17:22:44 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-08-27 17:22:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-08-27 17:22:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-27 17:22:49 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-08-27 17:22:49 INFO  c.s.journalapp.JournalAppApplication - Starting JournalAppApplication using Java 17.0.12 on Sanket with PID 17296 (D:\Sanket project\Projects\sanket-springboot-journal-app\target\classes started by sanke in D:\Sanket project\Projects\sanket-springboot-journal-app)
+2025-08-27 17:22:49 DEBUG c.s.journalapp.JournalAppApplication - Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-08-27 17:22:49 INFO  c.s.journalapp.JournalAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:22:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 17:22:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 2 JPA repository interfaces.
+2025-08-27 17:22:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-27 17:22:52 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:22:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-27 17:22:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-08-27 17:22:52 INFO  o.a.c.c.C.[.[localhost].[/journal] - Initializing Spring embedded WebApplicationContext
+2025-08-27 17:22:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2679 ms
+2025-08-27 17:22:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 17:22:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-08-27 17:22:53 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-08-27 17:22:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-27 17:22:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-27 17:22:53 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-08-27 17:22:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-27 17:22:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:22:55 DEBUG c.s.journalapp.Filter.JwtFilter - Filter 'jwtFilter' configured for use
+2025-08-27 17:22:55 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 17:22:55 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d4135c9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59db8216, org.springframework.security.web.context.SecurityContextPersistenceFilter@46eb2260, org.springframework.security.web.header.HeaderWriterFilter@51f009ef, org.springframework.security.web.authentication.logout.LogoutFilter@56226064, com.springboot.journalapp.Filter.JwtFilter@5a4e492c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@370a935f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68cb8e52, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bb86ac, org.springframework.security.web.session.SessionManagementFilter@5fa9971f, org.springframework.security.web.access.ExceptionTranslationFilter@453e1bba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ae6a77b]
+2025-08-27 17:22:57 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:22:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/journal'
+2025-08-27 17:22:57 INFO  c.s.journalapp.JournalAppApplication - Started JournalAppApplication in 8.182 seconds (JVM running for 9.042)
+2025-08-27 17:23:01 INFO  o.a.c.c.C.[.[localhost].[/journal] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27 17:23:01 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-27 17:23:01 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-27 17:23:01 INFO  c.s.journalapp.Service.UserService - Login attempt for username: userx
+2025-08-27 17:23:01 DEBUG c.s.journalapp.Service.UserService - Loaded user details for username: userx
+2025-08-27 17:23:01 INFO  c.s.journalapp.Service.UserService - Login successful for username: userx
+2025-08-27 17:23:16 INFO  c.s.journalapp.Service.UserService - Updating user details for: userx
+2025-08-27 17:23:16 INFO  c.s.journalapp.Service.UserService - User details updated successfully for: user6
+2025-08-27 17:23:25 INFO  c.s.journalapp.Service.UserService - Login attempt for username: User6
+2025-08-27 17:23:25 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: User not found with username: User6
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with username: User6
+	at com.springboot.journalapp.Service.UserDetailsImpl.loadUserByUsername(UserDetailsImpl.java:29)
+	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:71)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.springboot.journalapp.Filter.JwtFilter.doFilterInternal(JwtFilter.java:63)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-27 17:23:38 INFO  c.s.journalapp.Service.UserService - Login attempt for username: user6
+2025-08-27 17:23:38 DEBUG c.s.journalapp.Service.UserService - Loaded user details for username: user6
+2025-08-27 17:23:38 INFO  c.s.journalapp.Service.UserService - Login successful for username: user6
+2025-08-27 17:23:53 INFO  c.s.journalapp.Service.UserService - Deleting user: user6
+2025-08-27 17:23:53 INFO  c.s.journalapp.Service.UserService - User deleted successfully: user6
+2025-08-27 17:24:03 INFO  c.s.journalapp.Service.UserService - Saving new user: User6
+2025-08-27 17:24:03 INFO  c.s.journalapp.Service.UserService - User created successfully: User6
+2025-08-27 17:24:16 INFO  c.s.journalapp.Service.UserService - Login attempt for username: user6
+2025-08-27 17:24:16 ERROR c.s.j.E.GlobalExceptionHandler - An unexpected error occurred: User not found with username: user6
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with username: user6
+	at com.springboot.journalapp.Service.UserDetailsImpl.loadUserByUsername(UserDetailsImpl.java:29)
+	at com.springboot.journalapp.Service.UserService.loginUser(UserService.java:71)
+	at com.springboot.journalapp.Controller.Publiccontroller.loginUser(PublicController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.springboot.journalapp.Filter.JwtFilter.doFilterInternal(JwtFilter.java:63)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-27 17:24:23 INFO  c.s.journalapp.Service.UserService - Login attempt for username: User6
+2025-08-27 17:24:23 DEBUG c.s.journalapp.Service.UserService - Loaded user details for username: User6
+2025-08-27 17:24:23 INFO  c.s.journalapp.Service.UserService - Login successful for username: User6
+2025-08-27 17:25:56 DEBUG c.s.journalapp.Service.UserService - Finding user by username: User6
+2025-08-27 17:26:02 WARN  c.s.j.E.GlobalExceptionHandler - Validation error: Title is required
+2025-08-27 17:26:09 WARN  c.s.j.E.GlobalExceptionHandler - Validation error: Content is required
+2025-08-27 17:26:24 DEBUG c.s.journalapp.Service.UserService - Finding user by username: User6
+2025-08-27 17:26:34 WARN  c.s.journalapp.Filter.JwtFilter - JWT Filter failed: JWT expired 786046291 milliseconds ago at 2025-08-18T09:35:48.000Z. Current time: 2025-08-27T11:56:34.291Z. Allowed clock skew: 0 milliseconds.
+2025-08-27 17:26:34 DEBUG c.s.journalapp.Service.UserService - Finding user by username: anonymousUser
+2025-08-27 17:26:34 WARN  c.s.j.E.GlobalExceptionHandler - Resource not found: User not found: anonymousUser
+2025-08-27 17:26:44 DEBUG c.s.journalapp.Service.UserService - Finding user by username: User6
+2025-08-27 17:26:54 WARN  c.s.j.E.GlobalExceptionHandler - Resource not found: Journal not found with id: 3
+2025-08-27 17:27:07 WARN  c.s.j.E.GlobalExceptionHandler - Resource not found: Journal not found with id: 3
+2025-08-27 17:27:21 DEBUG c.s.journalapp.Service.UserService - Finding user by username: User6
+2025-08-27 17:28:07 WARN  c.s.journalapp.Filter.JwtFilter - JWT Filter failed: JWT expired 786139175 milliseconds ago at 2025-08-18T09:35:48.000Z. Current time: 2025-08-27T11:58:07.175Z. Allowed clock skew: 0 milliseconds.
+2025-08-27 17:28:07 WARN  c.s.j.E.GlobalExceptionHandler - Resource not found: Journal not found with id: 6
+2025-08-27 17:28:12 WARN  c.s.journalapp.Filter.JwtFilter - JWT Filter failed: JWT expired 786144608 milliseconds ago at 2025-08-18T09:35:48.000Z. Current time: 2025-08-27T11:58:12.608Z. Allowed clock skew: 0 milliseconds.
+2025-08-27 17:28:12 WARN  c.s.j.E.GlobalExceptionHandler - Access denied: Access denied for journal id: 5
+2025-08-27 17:28:21 WARN  c.s.journalapp.Filter.JwtFilter - JWT Filter failed: JWT expired 786153924 milliseconds ago at 2025-08-18T09:35:48.000Z. Current time: 2025-08-27T11:58:21.924Z. Allowed clock skew: 0 milliseconds.
+2025-08-27 17:28:21 WARN  c.s.j.E.GlobalExceptionHandler - Access denied: Access denied for journal id: 5
+2025-08-27 17:28:27 INFO  c.s.journalapp.Service.UserService - Login attempt for username: User6
+2025-08-27 17:28:27 DEBUG c.s.journalapp.Service.UserService - Loaded user details for username: User6
+2025-08-27 17:28:27 INFO  c.s.journalapp.Service.UserService - Login successful for username: User6
+2025-08-27 17:28:51 WARN  c.s.journalapp.Filter.JwtFilter - JWT Filter failed: JWT expired 786183042 milliseconds ago at 2025-08-18T09:35:48.000Z. Current time: 2025-08-27T11:58:51.042Z. Allowed clock skew: 0 milliseconds.
+2025-08-27 17:28:51 WARN  c.s.j.E.GlobalExceptionHandler - Resource not found: Journal not found with id: 3
+2025-08-27 17:28:57 WARN  c.s.journalapp.Filter.JwtFilter - JWT Filter failed: JWT expired 786189272 milliseconds ago at 2025-08-18T09:35:48.000Z. Current time: 2025-08-27T11:58:57.272Z. Allowed clock skew: 0 milliseconds.
+2025-08-27 17:28:57 WARN  c.s.j.E.GlobalExceptionHandler - Access denied: Access denied for journal id: 5
+2025-08-27 17:29:02 WARN  c.s.journalapp.Filter.JwtFilter - JWT Filter failed: JWT expired 786194120 milliseconds ago at 2025-08-18T09:35:48.000Z. Current time: 2025-08-27T11:59:02.120Z. Allowed clock skew: 0 milliseconds.
+2025-08-27 17:29:02 DEBUG c.s.journalapp.Service.UserService - Finding user by username: anonymousUser
+2025-08-27 17:29:02 WARN  c.s.j.E.GlobalExceptionHandler - Resource not found: User not found: anonymousUser
+2025-08-27 17:29:06 DEBUG c.s.journalapp.Service.UserService - Finding user by username: User6
+2025-08-27 17:29:45 WARN  c.s.journalapp.Filter.JwtFilter - JWT Filter failed: JWT expired 786237415 milliseconds ago at 2025-08-18T09:35:48.000Z. Current time: 2025-08-27T11:59:45.415Z. Allowed clock skew: 0 milliseconds.
+2025-08-27 17:29:45 INFO  c.s.journalapp.Service.AdminService - Creating new user: Admin3
+2025-08-27 17:29:45 WARN  c.s.j.E.GlobalExceptionHandler - Duplicate resource error: Username already exists
+2025-08-27 17:30:37 INFO  c.s.journalapp.Service.UserService - Login attempt for username: Admin3
+2025-08-27 17:30:37 DEBUG c.s.journalapp.Service.UserService - Loaded user details for username: Admin3
+2025-08-27 17:30:37 INFO  c.s.journalapp.Service.UserService - Login successful for username: Admin3
+2025-08-27 17:30:59 INFO  c.s.journalapp.Service.AdminService - Fetching all users from the database
+2025-08-27 17:30:59 DEBUG c.s.journalapp.Service.AdminService - Number of users found: 7
+2025-08-27 17:30:59 INFO  c.s.journalapp.Service.AdminService - Returning 7 users
+2025-08-27 17:31:09 INFO  c.s.j.Service.WeatherService - Fetching weather for city: Navsari
+2025-08-27 17:31:11 INFO  c.s.j.Service.WeatherService - Weather data fetched successfully for city: Navsari
+2025-08-27 17:33:17 INFO  c.s.j.Service.ElevenLabsService - Audio content written to file: output_52685ac4-193e-4b21-bbe5-d00ec965ac3a.mp3
+2025-08-27 17:36:44 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 722 ms
+2025-08-27 17:37:26 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:37:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-27 17:37:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-27 17:38:35 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springboot.journalapp.JournalAppApplicationTests], using SpringBootContextLoader
+2025-08-27 17:38:35 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.springboot.journalapp.JournalAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-08-27 17:38:35 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springboot.journalapp.JournalAppApplicationTests]: JournalAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-27 17:38:35 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springboot.journalapp.JournalAppApplication for test class com.springboot.journalapp.JournalAppApplicationTests
+2025-08-27 17:38:35 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-08-27 17:38:35 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4218500f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4bff64c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1b2c4efb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c35172e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c2db68f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cc41abc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4566d049, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61ce23ac, org.springframework.test.context.event.EventPublishingTestExecutionListener@3668d4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c3b9394, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f2cfcc2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f6f61c8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4c2cc639, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ccb4b1b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4097cac]
+2025-08-27 17:38:36 INFO  c.s.j.JournalAppApplicationTests - Starting JournalAppApplicationTests using Java 17.0.12 on Sanket with PID 20248 (started by sanke in D:\Sanket project\Projects\sanket-springboot-journal-app)
+2025-08-27 17:38:36 DEBUG c.s.j.JournalAppApplicationTests - Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-08-27 17:38:36 INFO  c.s.j.JournalAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:38:36 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-08-27 17:38:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 17:38:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2025-08-27 17:38:38 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 17:38:38 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-08-27 17:38:38 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-08-27 17:38:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-27 17:38:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-27 17:38:39 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-08-27 17:38:40 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-27 17:38:40 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:38:41 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 17:38:41 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47e70f54, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30a6984c, org.springframework.security.web.context.SecurityContextPersistenceFilter@b9c9bf5, org.springframework.security.web.header.HeaderWriterFilter@41f61188, org.springframework.security.web.authentication.logout.LogoutFilter@55300b93, com.springboot.journalapp.Filter.JwtFilter@59043741, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71806c64, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65f96d58, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45302e66, org.springframework.security.web.session.SessionManagementFilter@1574f323, org.springframework.security.web.access.ExceptionTranslationFilter@5a5c2889, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c512bb]
+2025-08-27 17:38:44 INFO  c.s.j.JournalAppApplicationTests - Started JournalAppApplicationTests in 8.436 seconds (JVM running for 9.936)
+2025-08-27 17:38:45 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:38:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-27 17:38:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-27 17:42:52 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springboot.journalapp.JournalAppApplicationTests], using SpringBootContextLoader
+2025-08-27 17:42:52 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.springboot.journalapp.JournalAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-08-27 17:42:52 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springboot.journalapp.JournalAppApplicationTests]: JournalAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-27 17:42:52 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springboot.journalapp.JournalAppApplication for test class com.springboot.journalapp.JournalAppApplicationTests
+2025-08-27 17:42:53 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-08-27 17:42:53 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4218500f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4bff64c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1b2c4efb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c35172e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c2db68f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cc41abc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4566d049, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61ce23ac, org.springframework.test.context.event.EventPublishingTestExecutionListener@3668d4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c3b9394, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f2cfcc2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f6f61c8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4c2cc639, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ccb4b1b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4097cac]
+2025-08-27 17:42:53 INFO  c.s.j.JournalAppApplicationTests - Starting JournalAppApplicationTests using Java 17.0.12 on Sanket with PID 22028 (started by sanke in D:\Sanket project\Projects\sanket-springboot-journal-app)
+2025-08-27 17:42:53 DEBUG c.s.j.JournalAppApplicationTests - Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-08-27 17:42:53 INFO  c.s.j.JournalAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:42:53 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-08-27 17:42:55 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 17:42:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 186 ms. Found 2 JPA repository interfaces.
+2025-08-27 17:42:57 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 17:42:57 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-08-27 17:42:57 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-08-27 17:42:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-27 17:42:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-27 17:42:58 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-08-27 17:42:59 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-27 17:42:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:43:00 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 17:43:00 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19d0d1ab, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e0941cc, org.springframework.security.web.context.SecurityContextPersistenceFilter@380e3122, org.springframework.security.web.header.HeaderWriterFilter@7ef3aa21, org.springframework.security.web.authentication.logout.LogoutFilter@4687c184, com.springboot.journalapp.Filter.JwtFilter@6f69e2d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7eb94590, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@468eff41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5114c8a1, org.springframework.security.web.session.SessionManagementFilter@6d38a81d, org.springframework.security.web.access.ExceptionTranslationFilter@7b6b99c5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79f3f34c]
+2025-08-27 17:43:03 INFO  c.s.j.JournalAppApplicationTests - Started JournalAppApplicationTests in 10.38 seconds (JVM running for 11.82)
+2025-08-27 17:43:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:43:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-27 17:43:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-27 17:49:52 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-08-27 17:49:53 INFO  c.s.journalapp.JournalAppApplication - Starting JournalAppApplication using Java 17.0.12 on Sanket with PID 17348 (D:\Sanket project\Projects\sanket-springboot-journal-app\target\classes started by sanke in D:\Sanket project\Projects\sanket-springboot-journal-app)
+2025-08-27 17:49:53 DEBUG c.s.journalapp.JournalAppApplication - Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-08-27 17:49:53 INFO  c.s.journalapp.JournalAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:49:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 17:49:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2025-08-27 17:49:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-27 17:49:55 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:49:55 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-27 17:49:55 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-08-27 17:49:56 INFO  o.a.c.c.C.[.[localhost].[/journal] - Initializing Spring embedded WebApplicationContext
+2025-08-27 17:49:56 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2886 ms
+2025-08-27 17:49:56 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 17:49:56 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-08-27 17:49:56 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-08-27 17:49:56 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-27 17:49:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-27 17:49:57 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-08-27 17:49:58 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-27 17:49:58 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:49:58 DEBUG c.s.journalapp.Filter.JwtFilter - Filter 'jwtFilter' configured for use
+2025-08-27 17:49:59 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 17:49:59 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10230657, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48a21ea6, org.springframework.security.web.context.SecurityContextPersistenceFilter@589d831e, org.springframework.security.web.header.HeaderWriterFilter@2d2afc39, org.springframework.security.web.authentication.logout.LogoutFilter@10280879, com.springboot.journalapp.Filter.JwtFilter@29431f61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c552f08, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b30b627, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@394e504d, org.springframework.security.web.session.SessionManagementFilter@59c00722, org.springframework.security.web.access.ExceptionTranslationFilter@514f2020, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31434b63]
+2025-08-27 17:50:01 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:50:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/journal'
+2025-08-27 17:50:01 INFO  c.s.journalapp.JournalAppApplication - Started JournalAppApplication in 9.034 seconds (JVM running for 9.95)
+2025-08-27 17:50:21 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springboot.journalapp.JournalAppApplicationTests], using SpringBootContextLoader
+2025-08-27 17:50:21 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.springboot.journalapp.JournalAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-08-27 17:50:21 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springboot.journalapp.JournalAppApplicationTests]: JournalAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-27 17:50:21 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springboot.journalapp.JournalAppApplication for test class com.springboot.journalapp.JournalAppApplicationTests
+2025-08-27 17:50:22 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-08-27 17:50:22 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4218500f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4bff64c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1b2c4efb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c35172e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c2db68f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cc41abc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4566d049, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61ce23ac, org.springframework.test.context.event.EventPublishingTestExecutionListener@3668d4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c3b9394, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f2cfcc2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f6f61c8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4c2cc639, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ccb4b1b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4097cac]
+2025-08-27 17:50:22 INFO  c.s.j.JournalAppApplicationTests - Starting JournalAppApplicationTests using Java 17.0.12 on Sanket with PID 18424 (started by sanke in D:\Sanket project\Projects\sanket-springboot-journal-app)
+2025-08-27 17:50:22 DEBUG c.s.j.JournalAppApplicationTests - Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-08-27 17:50:22 INFO  c.s.j.JournalAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:50:22 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-08-27 17:50:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 17:50:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2025-08-27 17:50:24 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 17:50:24 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-08-27 17:50:24 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-08-27 17:50:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-27 17:50:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-27 17:50:25 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-08-27 17:50:26 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-27 17:50:26 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:50:27 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 17:50:27 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45302e66, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47c422d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@16f2d883, org.springframework.security.web.header.HeaderWriterFilter@61d527ac, org.springframework.security.web.authentication.logout.LogoutFilter@4353db40, com.springboot.journalapp.Filter.JwtFilter@59043741, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69988d42, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52a3eef8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@382608d0, org.springframework.security.web.session.SessionManagementFilter@2b9370cc, org.springframework.security.web.access.ExceptionTranslationFilter@75566f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bac86a3]
+2025-08-27 17:50:30 INFO  c.s.j.JournalAppApplicationTests - Started JournalAppApplicationTests in 8.517 seconds (JVM running for 9.871)
+2025-08-27 17:50:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:50:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-27 17:50:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-27 17:51:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:51:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-27 17:51:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-27 17:51:24 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springboot.journalapp.JournalAppApplicationTests], using SpringBootContextLoader
+2025-08-27 17:51:24 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.springboot.journalapp.JournalAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-08-27 17:51:24 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springboot.journalapp.JournalAppApplicationTests]: JournalAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-27 17:51:24 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springboot.journalapp.JournalAppApplication for test class com.springboot.journalapp.JournalAppApplicationTests
+2025-08-27 17:51:24 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-08-27 17:51:24 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4218500f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4bff64c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1b2c4efb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c35172e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c2db68f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cc41abc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4566d049, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61ce23ac, org.springframework.test.context.event.EventPublishingTestExecutionListener@3668d4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c3b9394, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f2cfcc2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f6f61c8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4c2cc639, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ccb4b1b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4097cac]
+2025-08-27 17:51:24 INFO  c.s.j.JournalAppApplicationTests - Starting JournalAppApplicationTests using Java 17.0.12 on Sanket with PID 13028 (started by sanke in D:\Sanket project\Projects\sanket-springboot-journal-app)
+2025-08-27 17:51:24 DEBUG c.s.j.JournalAppApplicationTests - Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-08-27 17:51:24 INFO  c.s.j.JournalAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:51:24 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-08-27 17:51:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 17:51:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2025-08-27 17:51:27 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 17:51:27 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-08-27 17:51:27 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-08-27 17:51:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-27 17:51:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-27 17:51:28 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-08-27 17:51:29 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-27 17:51:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:51:30 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 17:51:30 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c966488, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45f6181a, org.springframework.security.web.context.SecurityContextPersistenceFilter@61d527ac, org.springframework.security.web.header.HeaderWriterFilter@7b43f95c, org.springframework.security.web.authentication.logout.LogoutFilter@227fc322, com.springboot.journalapp.Filter.JwtFilter@4b360a82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@576323ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ab2e018, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19d0d1ab, org.springframework.security.web.session.SessionManagementFilter@6785786d, org.springframework.security.web.access.ExceptionTranslationFilter@c7a1db6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79982bcc]
+2025-08-27 17:51:33 INFO  c.s.j.JournalAppApplicationTests - Started JournalAppApplicationTests in 8.595 seconds (JVM running for 9.898)
+2025-08-27 17:51:33 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 17:51:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-27 17:51:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-27 18:04:56 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springboot.journalapp.JournalAppApplicationTests], using SpringBootContextLoader
+2025-08-27 18:04:56 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.springboot.journalapp.JournalAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-08-27 18:04:56 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springboot.journalapp.JournalAppApplicationTests]: JournalAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-27 18:04:56 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springboot.journalapp.JournalAppApplication for test class com.springboot.journalapp.JournalAppApplicationTests
+2025-08-27 18:04:56 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-08-27 18:04:56 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4218500f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4bff64c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1b2c4efb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c35172e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c2db68f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cc41abc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4566d049, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61ce23ac, org.springframework.test.context.event.EventPublishingTestExecutionListener@3668d4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c3b9394, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f2cfcc2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f6f61c8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4c2cc639, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ccb4b1b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4097cac]
+2025-08-27 18:04:57 INFO  c.s.j.JournalAppApplicationTests - Starting JournalAppApplicationTests using Java 17.0.12 on Sanket with PID 10964 (started by sanke in D:\Sanket project\Projects\sanket-springboot-journal-app)
+2025-08-27 18:04:57 DEBUG c.s.j.JournalAppApplicationTests - Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-08-27 18:04:57 INFO  c.s.j.JournalAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 18:04:57 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-08-27 18:04:59 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 18:04:59 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 155 ms. Found 2 JPA repository interfaces.
+2025-08-27 18:05:00 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 18:05:00 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-08-27 18:05:01 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-08-27 18:05:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-27 18:05:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-27 18:05:01 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-08-27 18:05:03 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-27 18:05:03 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 18:05:04 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 18:05:04 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b272860, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4351d055, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cd31214, org.springframework.security.web.header.HeaderWriterFilter@78ab63b5, org.springframework.security.web.authentication.logout.LogoutFilter@51eafec0, com.springboot.journalapp.Filter.JwtFilter@39159b14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d32f5db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63053b71, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25c06894, org.springframework.security.web.session.SessionManagementFilter@48a61e38, org.springframework.security.web.access.ExceptionTranslationFilter@3777fc44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45f6181a]
+2025-08-27 18:05:07 INFO  c.s.j.JournalAppApplicationTests - Started JournalAppApplicationTests in 10.791 seconds (JVM running for 12.83)
+2025-08-27 18:05:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 18:05:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-27 18:05:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -18,7 +18,7 @@ import java.util.List;
 @RequestMapping("/api/journals")
 @RequiredArgsConstructor
 @Tag(name = "Journal APIs", description = "Read, Insert, Update, Delete and ReadById")
-public class JournalController {
+public class Journalcontroller {
 
 
     private final JournalService journalService;

@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping("/api/admin")
 @RequiredArgsConstructor
 @Tag(name = "Admin APIs", description = "Create and Read all User by Admin")
-public class AdminController {
+public class Admincontroller {
 
 
     private final AdminService adminService;

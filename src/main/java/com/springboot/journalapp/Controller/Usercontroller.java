@@ -18,7 +18,7 @@ import javax.validation.Valid;
 @Slf4j
 @RequiredArgsConstructor
 @Tag(name = "User APIs", description = "Update-Delete and Get Weather")
-public class UserController {
+public class Usercontroller {
 
 
     private final UserService service;

@@ -20,7 +20,7 @@
     <properties>
         <java.version>17</java.version>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
-        <sonar.token>squ_ef9841f11b57b4b6736a629578900e8fa625fae2</sonar.token>
+        <sonar.token>sqp_90151c549536eed18b62c0793a596091bbf617e4</sonar.token>
         <sonar.projectKey>journalapp</sonar.projectKey>
         <sonar.projectName>Journal Application</sonar.projectName>
         <sonar.sources>src/main/java</sonar.sources>

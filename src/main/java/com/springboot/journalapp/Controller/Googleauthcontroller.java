@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/auth/google")
 @RequiredArgsConstructor
-public class GoogleAuthController {
+public class Googleauthcontroller {
 
     private final GoogleAuthService googleAuthService;
 

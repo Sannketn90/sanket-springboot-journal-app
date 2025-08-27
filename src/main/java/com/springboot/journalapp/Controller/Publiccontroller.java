@@ -21,7 +21,7 @@ import javax.validation.Valid;
 @RequestMapping("/api")
 @RequiredArgsConstructor
 @Tag(name = "Public APIs", description = "Sign-up and Login")
-public class PublicController {
+public class Publiccontroller {
 
 
     private final UserService service;
