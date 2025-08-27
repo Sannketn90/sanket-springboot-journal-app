@@ -3,6 +3,7 @@ package com.springboot.journalapp.Controller;
 import com.springboot.journalapp.Dto.WeatherDTO;
 import com.springboot.journalapp.Service.WeatherService;
 import com.springboot.journalapp.api.response.ApiResponse;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +18,7 @@ public class WeatherController {
 
     private final WeatherService weatherService;
 
+    @Operation(summary = "Get weather")
     @GetMapping("/{city}")
     public ResponseEntity<ApiResponse<WeatherDTO>> getWeather(@PathVariable String city) {
         WeatherDTO weatherResponse = weatherService.getWeather(city);

@@ -1,6 +1,7 @@
 package com.springboot.journalapp.Controller;
 
 import com.springboot.journalapp.Service.ElevenLabsService;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,6 +17,7 @@ public class TextToSpeechController {
 
     private final ElevenLabsService elevenLabsService;
 
+    @Operation(summary = "Convert Text To Speech")
     @PostMapping
     public ResponseEntity<String> convertTextToSpeech(@RequestParam String text) {
         String filePath = elevenLabsService.textToSpeech(text);

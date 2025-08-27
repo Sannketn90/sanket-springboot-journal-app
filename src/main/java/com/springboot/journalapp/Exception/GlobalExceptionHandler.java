@@ -45,7 +45,7 @@ public class GlobalExceptionHandler {
     public ResponseEntity<ApiResponse<String>> handleGenericException(Exception ex) {
         log.error("An unexpected error occurred: {}", ex.getMessage(), ex);
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                .body(ApiResponse.error("Something went wrong"));
+                .body(ApiResponse.error(ex.getMessage()));
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
@@ -75,5 +75,12 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                 .body(ApiResponse.error("Failed to send email: " + ex.getMessage()));
 
+    }
+
+    @ExceptionHandler(GoogleAuthException.class)
+    public ResponseEntity<ApiResponse<String>> handleGoogleAuthException(GoogleAuthException ex) {
+        log.error("Google authentication error: {}", ex.getMessage(), ex);
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+                .body(ApiResponse.error("Google authentication failed: " + ex.getMessage()));
     }
 }

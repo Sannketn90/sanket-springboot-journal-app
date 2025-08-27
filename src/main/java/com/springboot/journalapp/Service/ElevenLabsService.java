@@ -21,8 +21,11 @@ public class ElevenLabsService {
     @Value("${elevenlabs.api.key}")
     private String apiKey;
 
-    private static final String API_URL = "https://api.elevenlabs.io/v1/text-to-speech/:voice_id";
-    private static final String VOICE_ID = "EXAVITQu4vr4xnSDxMaL";
+    @Value("${elevenlabs.api.url}")
+    private String API_URL;
+
+    @Value("${elevenlabs.api.voice_id}")
+    private String VOICE_ID;
 
     private final RestTemplate restTemplate;
 
